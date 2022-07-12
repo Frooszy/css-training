@@ -1,0 +1,36 @@
+.Info {
+    display: flex;
+}
+
+.Box {
+    background-color: #302F3D;
+    border-radius: 25px;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.UserDef {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.UserDef img {
+    border-radius: 100px;
+    width: 10vh;
+    height: 10vh;
+}
+
+.UserDef h1 {
+    margin: 10% 0 0 0;
+}
+
+.UserDef p {
+    margin-bottom: 1%;
+}
