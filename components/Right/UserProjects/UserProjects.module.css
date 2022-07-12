@@ -16,43 +16,7 @@
     flex-direction: column;
 }
 
-.FileIcon {
-    color: #837E9F;
-    font-size: 3em;
-}
-
-.Title {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    font-size: 0.6em;
-}
-
-.Title h1 {
-    padding-left: 8px;
-}
-
-.Others {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-@media (max-width: 1440px) {
-    .Title {
-        font-size: 0.5em;
-    }
-
-    .Content p {
-        font-size: 0.8em;
-    }
-}
-
 @media (max-width: 1024px) {
-    .Content {
-        display: none;
-    }
 
     .Projects {
         padding-top: 3%;
