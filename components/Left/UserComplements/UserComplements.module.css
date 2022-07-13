@@ -1,0 +1,27 @@
+.Complements {
+    margin-top: 20px;
+    display: flex;
+}
+
+.Box {
+    background-color: #302F3D;
+    border-radius: 25px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: left;
+    padding: 24px;
+}
+
+.ItemBox {
+    color: #837E9F;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.ItemBox p {
+    margin: 10px 0px 10px 8px;
+}

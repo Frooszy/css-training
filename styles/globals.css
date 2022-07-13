@@ -9,7 +9,8 @@ body {
 }
 
 h1,
-p {
+p,
+li {
   color: #837E9F;
 }
 
