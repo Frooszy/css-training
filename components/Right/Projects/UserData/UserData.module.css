@@ -1,0 +1,31 @@
+.Data {
+    display: flex;
+}
+
+.Box {
+    background-color: #302F3D;
+    border-radius: 25px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.UserData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.UserData h1 {
+    font-size: x-large;
+}
+
+@media (max-width: 728px) {
+
+    .Data {
+        padding-top: 20px;
+    }
+
+}

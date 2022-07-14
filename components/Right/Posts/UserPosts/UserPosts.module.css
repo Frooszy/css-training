@@ -1,5 +1,6 @@
-.Data {
+.Posts {
     display: flex;
+    margin-top: 2%;
 }
 
 .Box {
@@ -11,21 +12,13 @@
     box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.UserData {
+.UserPosts {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
 }
 
-.UserData h1 {
+.UserPosts h1 {
     font-size: x-large;
-}
-
-@media (max-width: 728px) {
-
-    .Data {
-        padding: 20px 0px;
-    }
-
 }
