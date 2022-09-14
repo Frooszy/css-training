@@ -1,7 +1,16 @@
+import { useRouter } from "next/router"
+
 export default function Home() {
+
+  const router = useRouter();
+
+  if (typeof window !== 'undefined') {
+      router.push('/dashboard')
+  }
+
   return (
     <div>
-      <p>Em breve.</p>
+      <p>Redirecionando...</p>
     </div>
   )
 }
